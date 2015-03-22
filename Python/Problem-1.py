@@ -15,4 +15,5 @@ def multiple():
 		if (num % 3 == 0) or (num % 5 == 0):
 			count += num 
 	print(count)
+	
 multiple()
