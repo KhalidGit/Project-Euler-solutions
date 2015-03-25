@@ -14,7 +14,6 @@
 
 
 
-
 count = 0
 var a = 1
 var b = 1
@@ -22,9 +21,6 @@ var b = 1
 while (a < 4000000){
     if (a%2 === 0){
         count += a 
-    }
-    else {
-        count = count
     }
     var [a, b] = [b, a+b];
 }
